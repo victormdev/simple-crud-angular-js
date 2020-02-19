@@ -4,7 +4,9 @@ function ListaComprasController($scope) {
 
     $scope.itens = [
         {produto: 'Leite', quantidade: 2, comprado: false},
-        {produto: 'Cerveja', quantidade: 12, comprado: false}
+        {produto: 'Cerveja', quantidade: 12, comprado: false},
+        {produto: 'Ovos', quantidade: 6, comprado: false},
+        {produto: 'Carne', quantidade: 12, comprado: false}
     ];
 
     $scope.adicionaItem = function () {
